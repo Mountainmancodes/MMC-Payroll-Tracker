@@ -14,7 +14,7 @@ A simple payroll application that has ability to add employees by first and last
 
 Example:
 
-![Example](./develop/images/MMC Payroll Tracker Img.png)
+![Example Image](Develop\images\MMC Payroll Tracker Img.png)
 
 ## Contributors
 

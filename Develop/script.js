@@ -1,7 +1,7 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
-const employee = {
+const employees = {
   firstName: [],
   lastName: [],
   salary:[],

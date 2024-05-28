@@ -59,8 +59,24 @@ let salaryTotal = 0
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
-  // TODO: Select and display a random employee
-}
+   
+  // Check if the employeesArray is not empty
+    if (employeesArray.length === 0) {
+        console.log("No employees to select from.");
+        return;
+    }
+   
+      // Generate a random index within the range of the array length
+      const randomIndex = Math.floor(Math.random() * employeesArray.length);
+  
+      // Get the random employee object at the random index
+      const randomEmployee = employeesArray[randomIndex];
+  
+      // Display the full name of the random employee
+      console.log(`Random Employee: ${randomEmployee.firstName} ${randomEmployee.lastName}`);
+  };
+
+  getRandomEmployee(employees);
 
 /*
   ====================
